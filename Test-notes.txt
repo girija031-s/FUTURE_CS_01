@@ -1,0 +1,25 @@
+Test Notes – Web Application Security Testing
+---------------------------------------------
+
+Project Context:
+This testing activity was part of my cybersecurity internship focused on identifying web application vulnerabilities such as SQL injection (SQLi), cross-site scripting (XSS), and authentication flaws.
+
+Approach & Methodology:
+- Performed manual and automated scans using Burp Suite and OWASP ZAP.
+- Verified SQL injection risk through query manipulation and response behavior.
+- Tested XSS by injecting scripts in form inputs and URL parameters.
+- Examined session management using browser DevTools and token analysis via jwt.io.
+
+Observations:
+- SQL injection detected on login form with successful data retrieval simulation.
+- Reflected XSS activated using `<script>` payload in search and contact forms.
+- Authentication bypass observed via exposed session token and lack of validation.
+- All findings were captured with screenshots for documentation purposes.
+
+Challenges Faced:
+- Rate-limited responses during repeated payload testing
+- Handling false positives in ZAP automated scans
+- Understanding token encoding techniques for auth flaws
+
+Outcome:
+Successfully documented vulnerabilities and proposed mitigation strategies including input sanitization, proper error handling, and secure session validation.

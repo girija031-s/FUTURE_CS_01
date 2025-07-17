@@ -1,0 +1,23 @@
+Tools Used in Web Application Security Testing
+----------------------------------------------
+
+1. Burp Suite
+   - Version: Community Edition
+   - Purpose: Intercept HTTP traffic, perform manual and automated vulnerability scanning
+
+2. OWASP ZAP
+   - Version: 2.14.0
+   - Purpose: Automated security scan and spidering of web application endpoints
+
+3. SQLMap
+   - Version: 1.6.11
+   - Purpose: Identify and exploit SQL injection vulnerabilities via command-line interface
+
+4. jwt.io
+   - Purpose: Decode, verify, and analyze JSON Web Tokens during auth flaw detection
+
+5. Browser DevTools (Chrome)
+   - Purpose: Inspect requests, responses, and client-side behaviors
+
+6. Windows Snipping Tool
+   - Purpose: Capture evidence screenshots for vulnerability documentation
